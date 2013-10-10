@@ -3,5 +3,7 @@ jdk:
     - oraclejdk7
     - openjdk7
     - openjdk6
+env:
+  - CI_REPORTS=shippable/testresults COVERAGE_REPORTS=shippable/codecoverage
 notifications:
   email: false
